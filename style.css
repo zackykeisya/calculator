@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3); /* Menambahkan efek bayangan pada kontainer */
+  display: flex; /* Menggunakan flexbox untuk menyusun item */
+  justify-content: space-between; /* Menyusun item ke kanan dan kiri kontainer */
+  align-items: center; /* Memusatkan item vertikal */
+}
+
+
+form {
+  margin: 50px 0 20px 0;
+}
+
+table {
+  text-align: center;
+  width: 35%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1.9);
+  border: none;
+  background-size: cover;
+  background-image: url(img/Jdm\ Car\ Wallpaper\ 4K\ Pc\ _\ Aesthetic\ Jdm\ Car\ Wallpaper\ 4k\ _\ Download\ Hd\ &\ 4k\ Cars\ Wallpapers\,pictures\,images\,photos\ for\ Desktop\ &\ Mobile\ Backgrounds\ in\ Hd\,\ 4k\ Ultra\ Hd\,\ Widescreen\ High\ Quality\ Resolutions_\ -\ Paperbl.jpeg);
+}
+
+
+  
+td, th {
+  padding: 10px;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="number"] {
+  width: 50%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.button-group {
+  text-align: center;
+}
+
+.button-group button {
+  margin: 0 5px;
+}
+
+.result-container {
+  max-width: 400px; /* Menentukan lebar maksimum hasil */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Menambahkan efek bayangan pada kontainer hasil */
+  background-color: aquamarine;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .table{
+    width: 90%;
+  }
+  .label{
+    font-size: 1px;
+  }
+  .container {
+      flex-direction: column; /* Mengubah arah flex menjadi vertikal */
+      align-items: stretch; /* Memanjangkan item vertikal */
+      font-size: 0.5px;
+  }
+  input[type="number"] {
+    width: 50%; /* Lebar input diubah menjadi 100% dari lebar tabel */
+  }
+  
+  .result-container {
+      max-width: 25%; /* Mengisi lebar layar penuh */
+  }
+}
